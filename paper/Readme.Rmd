@@ -1,0 +1,12 @@
+# Reproducibility materials for the RRH-FD paper
+
+This folder contains the R scripts, summarized simulation results, and figures used in the manuscript.
+
+## Folder structure
+
+- `examples/`: illustrative RRHFD package example.
+- `simulation_codes/`: scripts used to prepare simulation grids, run simulation chunks, combine results, and generate figures.
+- `simulation_results/`: summarized CSV files used to reproduce the numerical tables.
+- `figures/`: figures reported in the manuscript.
+
+Large raw Monte Carlo chunk files are not included to keep the repository compact. The summarized CSV files are sufficient to reproduce the tables and main figures reported in the manuscript.

@@ -1,0 +1,9 @@
+scenario_id,study,fault_type,step_delta,w_roll,gamma_online,online_contamination,offline_contamination,eps_offline
+1,clean,step,0.06,50,0,none,none,0
+2,clean,oscillation,0.06,50,0,none,none,0
+3,clean,gradual,0.06,50,0,none,none,0
+4,clean,intermittent,0.06,50,0,none,none,0
+5,clean,step,0.06,80,0,none,none,0
+6,clean,oscillation,0.06,80,0,none,none,0
+7,clean,gradual,0.06,80,0,none,none,0
+8,clean,intermittent,0.06,80,0,none,none,0
