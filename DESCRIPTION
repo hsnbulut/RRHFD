@@ -1,0 +1,20 @@
+Package: RRHFD
+Type: Package
+Title: Robust Rolling Hotelling T-Squared Fault Detection
+Version: 0.1.0
+Authors@R: c(
+    person("Hasan", "Bulut", role = c("aut", "cre"), email = "hasan@example.com")
+  )
+Description: A small implementation of the adaptive robust rolling Hotelling
+    T-squared fault detection method used in the Stochastic Hotelling T2
+    project. The package computes adaptive MCD alpha values, robust rolling
+    Hotelling statistics, empirical thresholds, online alarms, and basic
+    fault-detection metrics. It can use robustbase::covMcd() when available,
+    and otherwise falls back to a simple trimmed robust covariance estimator.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Enhances:
+    robustbase
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
