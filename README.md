@@ -1,7 +1,7 @@
 # RRHFD
 
 `RRHFD` is a small R package for the adaptive robust rolling Hotelling T-squared
-fault-detection method used in the Stochastic Hotelling T2 project.
+fault-detection method used in the RRH-FD stochastic monitoring project.
 
 The package is intentionally compact for the first version. It provides:
 
